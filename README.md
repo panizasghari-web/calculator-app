@@ -15,7 +15,7 @@ A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind 
   - Multiplication ("×")
   - Division ("÷")
   - Percentage ("%")
-  - Parentheses ("(" ")")
+  - Parentheses ("( )")
   - Decimal (".")
 - Smart single parentheses button that automatically determines whether to insert an opening or closing parenthesis.
 - Dedicated percentage calculation function for precise "%" operations.
