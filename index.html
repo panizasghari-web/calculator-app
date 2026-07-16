@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/site.webmanifest" />
+  </head>
+  <body>
+    <main
+      id="calculator-page"
+      class="w-screen h-screen bg-[#31363e] font-math text-gray-300 flex justify-center items-center"
+    >
+      <section
+        id="calculator"
+        class="w-[75%] sm:w-[50%] md:w-[35%] h-[65%] md:h-[85%] rounded-[25px] shadow-[0_0_15px_rgba(255,255,255,0.2)] flex flex-col items-center justify-around"
+      >
+        <div
+          id="display"
+          class="w-[80%] h-20 text-gray-400 caret-transparent text-2xl text-right rounded-[25px] shadow-[0_0_15px_rgba(255,255,255,0.2)] -mb-4 flex flex-col overflow-hidden"
+        >
+          <input
+            type="text"
+            id="display-input"
+            placeholder="0"
+            class="w-full h-10 mt-4 text-right pt-2.5 px-6 cursor-default focus:border-none focus:outline-none bg-transparent"
+            readonly
+          />
+          <input
+            type="text"
+            id="display-result"
+            class="w-full h-10 text-right text-[17px] text-pink-700 px-6 cursor-default focus:border-none focus:outline-none bg-transparent"
+            readonly
+          />
+        </div>
+
+        <div
+          id="buttons"
+          class="w-[80%] h-80 grid grid-cols-4 grid-rows-5 gap-6"
+        >
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>AC</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>( )</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>%</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>÷</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>7</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>8</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>9</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>×</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>4</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>5</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>6</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span class="text-2xl">-</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>1</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>2</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>3</span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>+</span>
+          </button>
+          <button
+            class="rounded-[10px] text-pink-700 shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span class="text-2xl">.</span>
+          </button>
+          <button
+            class="rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>0</span>
+          </button>
+          <button
+            class="operators backspace text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+            data-value="backspace"
+          >
+            <span class="w-full h-full flex justify-center items-center">
+              <svg
+                fill="currentColor"
+                class="w-[40%] h-[40%]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z"
+                />
+                <path
+                  d="M13.683 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7.08a2 2 0 0 1-1.519-.698L.241 8.65a1 1 0 0 1 0-1.302L5.084 1.7A2 2 0 0 1 6.603 1zm-7.08 1a1 1 0 0 0-.76.35L1 8l4.844 5.65a1 1 0 0 0 .759.35h7.08a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+                />
+              </svg>
+            </span>
+          </button>
+          <button
+            class="operators text-pink-700 rounded-[10px] shadow-[-3px_-3px_15px_rgba(255,255,255,0.1),3px_3px_15px_rgba(0,0,0,0.6)] cursor-pointer"
+          >
+            <span>=</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/master.js"></script>
+  </body>
+</html>
