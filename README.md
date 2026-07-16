@@ -49,7 +49,7 @@ A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind 
 
 🚀 How to Run
 
-2. Open "index.html" in your browser.](https://panizasghari-web.github.io/calculator-app/)
+https://panizasghari-web.github.io/calculator-app/
 
 📚 What I Learned
 
