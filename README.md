@@ -2,7 +2,7 @@
 
 [Live Demo](https://panizasghari-web.github.io/calculator-app/)
 
-[Features](features)
+[Features](Features)
 
 # 🧮 Advanced Calculator
 
