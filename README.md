@@ -2,11 +2,11 @@
 
 Live Demo: https://panizasghari-web.github.io/calculator-app/
 
-🧮 Advanced Calculator
+# 🧮 Advanced Calculator
 
 A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind CSS, and JavaScript. The calculator is designed to provide accurate calculations, intelligent input validation, and a smooth user experience with advanced operator handling.
 
-✨ Features
+## ✨ Features
 
 - Accurate mathematical calculations
 - Supports the following operators:
@@ -31,14 +31,14 @@ A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind 
 - Smooth and responsive user interface.
 - Clean and user-friendly calculator layout.
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
 - Tailwind CSS
 - JavaScript (Vanilla JS)
 
-📸 Preview
+## 📸 Preview
 
 <img width="959" height="409" alt="1" src="https://github.com/user-attachments/assets/32b8fcbe-2607-4c5f-a69c-42b1cda5f1f9" />
 <img width="959" height="410" alt="2" src="https://github.com/user-attachments/assets/9f4f0f07-0c6d-4d42-bddd-62b6bbded0fe" />
@@ -47,11 +47,11 @@ A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind 
 <img width="959" height="413" alt="5" src="https://github.com/user-attachments/assets/444f140c-7aee-4183-adf5-dd0de9226fc7" />
 
 
-🚀 How to Run
+## 🚀 How to Run
 
 https://panizasghari-web.github.io/calculator-app/
 
-📚 What I Learned
+## 📚 What I Learned
 
 - DOM Manipulation
 - Event Handling
@@ -63,7 +63,7 @@ https://panizasghari-web.github.io/calculator-app/
 - Error Handling
 - Responsive Design with Tailwind CSS
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Developed by Paniz Asghari
 
