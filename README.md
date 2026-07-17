@@ -1,8 +1,8 @@
-# [calculator-app](#https://panizasghari-web.github.io/calculator-app/)
+# calculator-app
 
 Live Demo: https://panizasghari-web.github.io/calculator-app/
 
-# 🧮 Advanced Calculator
+# [🧮 Advanced Calculator]((#https://panizasghari-web.github.io/calculator-app/))
 
 A modern and feature-rich Calculator Application built with HTML, CSS, Tailwind CSS, and JavaScript. The calculator is designed to provide accurate calculations, intelligent input validation, and a smooth user experience with advanced operator handling.
 
