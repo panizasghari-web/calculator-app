@@ -65,5 +65,5 @@ https://panizasghari-web.github.io/calculator-app/
 
 ## 👩‍💻 Author
 
-Developed by <ins>Paniz Asghari</ins> 
+Developed by <ins>Paniz Asghari</ins>
 
